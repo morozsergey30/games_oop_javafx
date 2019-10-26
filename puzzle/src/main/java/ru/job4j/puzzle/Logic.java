@@ -84,7 +84,7 @@ public class Logic {
                         countV++;
                     }
                 }
-                if (countH == 5 || countV == 5) {
+                if (countH == table.length || countV == table.length) {
                     result = true;
                     return result;
                 }
